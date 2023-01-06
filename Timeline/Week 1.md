@@ -11,5 +11,5 @@ We will be learning how to use Git and GitHub. GitHub will be where our project 
 We will quickly go through VS Code features. We can try to get this installed, in which case we will walk through integrating Git and GitHub into VS Code for easy access.
 
 ## Homework
-
+We will try to schedule a meeting with our faculty advisor. The project that we are attempting to take on is quite a massive one, especially if you haven't really coded before, so your faculty advisor will be a huge blessing to you when working on this research project.
 
