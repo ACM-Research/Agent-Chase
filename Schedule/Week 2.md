@@ -10,6 +10,6 @@ How to install Unity: [insert link here]
 Unity tutorial:
 
 ### ML Agents
-https://virajvaitha.medium.com/unity-ml-agents-2022-installation-e8af1eab2dd
+Installing ML Agents: https://virajvaitha.medium.com/unity-ml-agents-2022-installation-e8af1eab2dd
 
 ## Homework
