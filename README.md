@@ -3,6 +3,9 @@
 Welcome to Agent Chase! This is a two player game meant to be played by two computer agents. One agent is the "runner" and the other is the "goalie". 
 A game where one player tries to stop another from reaching the goals. This is meant to be a project demonstrating a genetic algorithm that succeeds for both players.
 
+![Agent_Chase_Poster (18)-compressed-1](https://user-images.githubusercontent.com/43019257/235407717-a676a935-fc65-4ef1-a492-645d132f67c6.png)
+
+
 ## Environment
 The environment is a 2D area enclosed by a perimeter. Walls that generate will be insurmountable, but can be walked around. 
 
