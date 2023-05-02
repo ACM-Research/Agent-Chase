@@ -43,7 +43,7 @@ The environment was replicated 16 times to speed up the process of training. Tra
 - Hit wall: -0.0005
 - Frame passes: -0.01
 
-- Here are a list of rewards for the defender:
+Here are a list of rewards for the defender:
 - Walking towards attacker: 0.005
 - Walking away from defender: -0.003
 - Winning (catch attacker): 1
