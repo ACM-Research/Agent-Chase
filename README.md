@@ -36,20 +36,20 @@ Models for the attacker and the defender were saved every 500,000 steps so that 
 ### Training Info
 The environment was replicated 16 times to speed up the process of training. Training proceeded for 5,000,000 steps, which would be around 5,000 episodes and 5 hours long. The attacker and defender had distinct policies and rewards that were optimized for their situations. Here are a list of rewards for the attacker:
 
-Walking towards goal: 0.01
-Walking away from goal: -0.003
-Winning (touch goal): 1
-Losing (caught by defender): -1
-Hit wall: -0.0005
-Frame passes: -0.01
+- Walking towards goal: 0.01
+-Walking away from goal: -0.003
+- Winning (touch goal): 1
+- Losing (caught by defender): -1
+- Hit wall: -0.0005
+- Frame passes: -0.01
 
-Here are a list of rewards for the defender:
-Walking towards attacker: 0.005
-Walking away from defender: -0.003
-Winning (catch attacker): 1
-Losing (attacker reaches goal): -1
-Hit wall: -0.0001
-Frame passes: -0.005
+- Here are a list of rewards for the defender:
+- Walking towards attacker: 0.005
+- Walking away from defender: -0.003
+- Winning (catch attacker): 1
+- Losing (attacker reaches goal): -1
+- Hit wall: -0.0001
+- Frame passes: -0.005
 
 The results of the training are in the poster.
 
