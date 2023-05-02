@@ -28,11 +28,10 @@ The goal object spawns in at the start of the episode. The attacker must reach t
 ## Training the Agent
 
 ### PPO
-Both agents used slightly different rewards systems with the algorithm of Proximal Policy Optimization, or PPO. The learning rate starts off at 0.0003, but decays linearly over time as the maximum amount of steps (around 5 million) is reached, eventually becoming 0. 
+Both agents used slightly different rewards systems with the algorithm of Proximal Policy Optimization, or PPO. The learning rate starts off at 0.0003, but decays linearly over time as the maximum amount of steps (around 5 million) is reached, eventually becoming 0. The policy model would update every 10,240 steps, with a batch size of 64 steps. The neural network used was 2 layers deep, with 8 observations.
 
 ### Saving the Model
-Models for the attacker and the defender were saved every 500,000 steps so that the team could observe the development of each model.
-
+Models for the attacker and the defender were saved every 500,000 steps so that the team could observe the development of each model. This gave us 11 models for each training session, as the model progressed from 0 to 5,000,000 steps. The last 12,000 steps 
 # Results
 
 
