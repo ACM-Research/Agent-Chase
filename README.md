@@ -12,7 +12,7 @@ The attacker's objective is to touch the goal while avoiding the goalie in the s
 ### Defender
 The defender's objective is to stop the attacker from reaching the goal. This is done by "tagging" the attacker, which is whenever the hitboxes of the defender and attacker collide. To prevent "goal-camping", where the defender just sits by the goal and moves very little, the defender is incentivized to actively chase the attacker, attempting to end the episode as quickly as possible.
 
-
+Here is some additional information about the project that is not in the poster:
 
 ## Environment
 
@@ -51,8 +51,10 @@ Losing (attacker reaches goal): -1
 Hit wall: -0.0001
 Frame passes: -0.005
 
-# Results
+The results of the training are in the poster.
 
 ## Challenges
 Originally, objects would occasionally respawn into other obstacles. This is a problem, as these should be invalid locations. Resolving this was as easy as respawning the object until no collisions were detected. 
+
+Additionally, the ML-Agents repository's installation guide was hilariously outdated, with many, many bugs, incompatible Python packages, and broken environments. Resolving this took about a month, but we wrote our own version of the installation guide for Unity ML-Agents that should work for version 2.3.0+.
 
