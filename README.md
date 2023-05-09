@@ -1,5 +1,9 @@
 # Agent Chase
 
+# WIP
+This README and project is a work in progress. We are still editing and polishing large parts of our project, so stay tuned!
+
+
 Welcome to Agent Chase! This is a two player game meant to be played by two computer agents. One agent is the "attacker" and the other is the "defender". 
 The defender aims to tag the attacker before it can reach the goal. This is meant to be a project demonstrating reinforcement learning with multiple, dissimilar agents.
 
@@ -58,3 +62,10 @@ Originally, objects would occasionally respawn into other obstacles. This is a p
 
 Additionally, the ML-Agents repository's installation guide was hilariously outdated, with many, many bugs, incompatible Python packages, and broken environments. Resolving this took about a month, but we wrote our own version of the installation guide for Unity ML-Agents that should work for version 2.3.0+.
 
+
+## Team Members
+Michael Figueroa
+Vaishnavi Josyula
+Nivedha Sreenivasan
+Ahmed Siddiqui
+Naveen Mukkatt (Research Lead)
