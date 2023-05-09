@@ -1,6 +1,4 @@
-# Agent Chase
-
-# WIP
+# Agent Chase (WIP)
 This README and project is a work in progress. We are still editing and polishing large parts of our project, so stay tuned!
 
 
