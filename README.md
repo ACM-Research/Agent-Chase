@@ -1,6 +1,3 @@
-# Agent Chase (WIP)
-This README and project is a work in progress. We are still editing and polishing large parts of our project, so stay tuned!
-
 
 Welcome to Agent Chase! This is a two player game meant to be played by two computer agents. One agent is the "attacker" and the other is the "defender". 
 The defender aims to tag the attacker before it can reach the goal. This is meant to be a project demonstrating reinforcement learning with multiple, dissimilar agents.
